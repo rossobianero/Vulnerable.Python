@@ -1,3 +1,8 @@
+# keep the old Flask for SCA realism, but pin compatible deps
 Flask==1.1.2
+Jinja2<3.1
+itsdangerous<2.1
+Werkzeug<2.1
+
+# keep your older requests pin if you want SCA hits
 requests==2.20.0
-pysqlite3==0.4.6
